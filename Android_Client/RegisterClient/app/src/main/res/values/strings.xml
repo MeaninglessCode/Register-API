@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">RegisterClient</string>
+    <string name="text_view_default">TextView</string>
+
+    <!-- General errors -->
+    <string name="error_internal_server">Internal server error has occurred!</string>
+    <string name="error_socket_timeout">Request to server timed out! Please try again.</string>
+    <string name ="error_io_exception">Request to server failed! Please try again.</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Strings related to login -->
+    <string name="login_title">Register Client Login</string>
+    <string name="prompt_employeeId">Employee Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_employee_not_found">Employee with that ID not found</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+
+    <!-- Employee register strings -->
+    <string name="text_view_createNewEmployee">Create new employee account</string>
+    <string name="prompt_firstName">First Name</string>
+    <string name="prompt_lastName">Last Name</string>
+    <string name="error_employeeId_in_use">Employee with that ID exists</string>
+    <string name="error_invalid_employeeId">Invalid employee ID</string>
+
+    <!-- Main menu strings -->
+    <string name="main_menu_title">Main Menu</string>
+    <string name="text_view_currentEmployee">Currently logged in as: (id: %1$s)\n%2$s %3$s</string>
+    <string name="action_logout">Logout</string>
+    <string name="logout_content_description">Logout button</string>
+    <string name="action_manage_products">Manage Products</string>
+
+    <!-- Product menu strings -->
+    <string name="label_lookup_code">Code: </string>
+    <string name="text_view_createNewProduct">Create new product</string>
+    <string name="text_view_editProduct">Edit product</string>
+    <string name="refresh_content_description">Refresh button</string>
+    <string name="add_content_description">Add button</string>
+    <string name="edit_content_description">Edit button</string>
+    <string name="prompt_lookupCode">Lookup Code</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_description">Description</string>
+    <string name="prompt_price">Price</string>
+    <string name="prompt_inventory">Inventory</string>
+    <string name="action_save_product">Save Product</string>
+    <string name="error_invalid_price">Price must be a number</string>
+    <string name="error_invalid_inventory">Inventory must be a number</string>
+    <string name="error_lookupCodeInUse">Lookup code in use</string>
+    <string name="error_lookupCodeInvalid">Lookup code is invalid</string>
+    <string name="prompt_createdOn">Created On</string>
+    <string name="prompt_lastUpdate">Last Updated</string>
+    <string name="prompt_active">Active</string>
+    <string name="delete_content_description">Delete button</string>
+    <string name="save_content_description">Save button</string>
+    <string name="switch_active">Active</string>
+    <string name="product_menu_label">Manage Products</string>
+    <string name="button_add_title">Add Product</string>
+    <string name="button_refresh_title">Refresh List</string>
+    <string name="button_search_title">Search Products</string>
+
+    <!-- Transaction menu strings -->
+    <string name="shopping_cart_content_description">Shopping cart</string>
+    <string name="button_checkout_products">Checkout</string>
+    <string name="error_invalid_quantity">Quantity must be a number</string>
+    <string name="error_invalid_discount">Discount must be a number</string>
+    <string name="prompt_quantity">Quantity</string>
+    <string name="prompt_discount">Discount</string>
+    <string name="cancel_content_description">Cancel button</string>
+    <string name="label_cashier_id">Cashier Id: </string>
+    <string name="label_transaction_type">Type: </string>
+    <string name="text_view_total">Total: $%1$s</string>
+
+</resources>
